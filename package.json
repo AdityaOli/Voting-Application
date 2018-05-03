@@ -1,0 +1,39 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "my-glitch-app",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "latest",
+    "body-parser": "latest",
+    "passport": "latest",
+    "passport-twitter": "latest",
+    "cookie-session": "^2.0.0-beta.3",
+    "express-session": "latest",
+    "morgan": "latest",
+    "cookie-parser": "latest",
+    "connect-ensure-login": "latest",
+    "ejs": "latest",
+    "getmac": "latest",
+    "oauth":"latest"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
